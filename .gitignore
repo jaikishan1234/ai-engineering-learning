@@ -1,0 +1,77 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+
+# -----------------------------
+# macOS
+# -----------------------------
+.DS_Store
+
+# -----------------------------
+# Windows
+# -----------------------------
+Thumbs.db
+Desktop.ini
+
+# -----------------------------
+# Pytest / Coverage
+# -----------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# -----------------------------
+# Type Checkers
+# -----------------------------
+.mypy_cache/
+.pyre/
+.pytype/
+
+# -----------------------------
+# Ruff / Lint
+# -----------------------------
+.ruff_cache/
+
+# -----------------------------
+# IDEs
+# -----------------------------
+.idea/
+
+# -----------------------------
+# Misc
+# -----------------------------
+*.swp
+*.swo
